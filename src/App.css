@@ -1,0 +1,69 @@
+/* Global styles for the entire app */
+
+/* Styling for the navigation bar */
+.log{
+  height: 25px;
+  background-color: black;
+  columns: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+
+}
+nav{
+   display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--header-background);
+    align-items: center;
+    height: 20px;
+   
+  }
+  
+  .icon{
+      display: flex
+     }
+  .icon img{
+     margin-top: 6px;
+      height: 30px;
+      width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    }
+    p{
+      color: white;
+      margin-left: 10px;
+      cursor: pointer;
+      
+    }
+   nav p:hover{
+    color: #61dafb;
+  
+    }
+    .nav{
+      display: flex;
+      align-items: center;
+      margin-left: 300px;
+      
+      
+    }
+    
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+ 
+  }
+  
+  nav a:hover {
+    color: #61dafb;
+  }
+  
+  /* Padding for the content of each page */
+  .content {
+    padding: 2rem;
+  }
+  

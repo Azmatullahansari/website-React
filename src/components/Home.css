@@ -1,0 +1,144 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header'
+      'main main'
+      'footer footer';
+    
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 10px;
+    padding: 1rem;
+    background-color: var(--main-background);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+ 
+  }
+  
+  header {
+    background-color: var(--header-background);
+    display: flex;
+    justify-content: space-between;
+    grid-area: header;
+    padding: 1rem;
+    text-align: center;
+    height: 100%;
+   
+  }
+  .heading{
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+  .idea{
+    margin-right:100px;
+    margin-top: 180px;
+    margin-left:40px ;
+  }
+  .para{
+    width: 300px;
+    color: var(--text-color);
+  }
+  .web{
+    height: 35px;
+    width: 150px;
+    background-color:yellow;
+    color: var(--text-color);
+    border-radius:30px;
+    font-weight: bold;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 90px;
+    
+  }
+  div img{
+    height: 400px;
+    width: 550px;
+    margin-top: 5px;
+    border-radius: 20px;
+  }
+  
+  main {
+   
+    grid-area: main;
+    background-color: var(--main-background);
+    padding: 1rem;
+    margin-top: 20px;
+  }
+  main h1{
+    padding-left: 30px;
+  }
+   
+  .photos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+    
+    
+  .building{
+    height: 200px;
+    width: 200px;
+   
+  }
+  
+  .building img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  .building p{
+    color: var(--text-color);
+  }
+  
+  footer {
+    grid-area: footer;
+    background-color: var(--footer-background);
+    padding: 1rem;
+    text-align: center;
+  
+  }
+  
+  .img{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .img img{
+    height: 150px;
+    width: 130px;
+    padding: 10px;
+  }
+  .services{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .services p{
+    color: var(--text-color);
+  }
+  .last svg{
+    padding: 5px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-areas:
+        'header'
+        'main'
+        'footer';
+        
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+   
+    
+  
+  
+  
